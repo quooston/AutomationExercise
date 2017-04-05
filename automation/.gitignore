@@ -1,0 +1,63 @@
+npm-debug.log
+/node_modules
+/testApp
+.DS_Store
+__test
+__testApp
+__testModule
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+my-ip-address.js
+
+# Pact
+artefacts/pacts/*.json
+
+# WebStorm
+/.idea
+/*.iml
+
+# VS
+/.vs
+
+/source/artifacts
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Test results
+[Tt]estResults/
+
+*.orig
+.idea
+

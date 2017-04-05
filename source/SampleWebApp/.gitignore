@@ -1,0 +1,50 @@
+npm-debug.log
+/node_modules
+/testApp
+.DS_Store
+__test
+__testApp
+__testModule
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+my-ip-address.js
+
+# Pact
+artefacts/pacts/*.json
+
+# WebStorm
+/.idea
+/*.iml
+
+# VS
+/.vs
+
+/source/artifacts
+/packages
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+
+*.orig
+.idea
+
